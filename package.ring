@@ -5,11 +5,11 @@ aPackageInfo = [
 	:developer = "Mahmoud Fayed",
 	:email = "msfclipper@yahoo.com",
 	:license = "MIT License",
-	:version = "1.0.2",
-	:ringversion = "1.10",
+	:version = "1.0.3",
+	:ringversion = "1.13",
 	:versions = 	[
 		[
-			:version = "1.0.2",
+			:version = "1.0.3",
 			:branch = "master"
 		]
 	],
@@ -24,10 +24,9 @@ aPackageInfo = [
 		"main.ring"
 	],
 	:ringfolderfiles = 	[
-		"bin/zerolib.ring",
-		"ringlibs/zerolib/README.md",
-		"ringlibs/zerolib/test.ring",
-		"ringlibs/zerolib/zerolib.ring"
+		"bin/load/zerolib.ring",
+		"libraries/zerolib/README.md",
+		"libraries/zerolib/zerolib.ring"
 	],
 	:windowsfiles = 	[
 
